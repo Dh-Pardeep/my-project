@@ -15,7 +15,7 @@ const From = () => {
             <img className='absolute top-[60%] z-[-20]  hidden md:block' src={From_Center_left} alt="image" />
             <img className='absolute top-[60%] right-0  z-[-20] hidden md:block' src={From_Center_right} alt="image" />
             <div className="container mx-auto ">
-               <div className='max-w-[946px] mx-auto mt-28 mb-[121px] rounded-[12px] px-[30px] md:px-[40px] lg:px-[50px] pb-[52px] lg:pt-[40px] pt-[25px] md:pt-[32px] shadow-FullBox  z-[100] relative bg-white' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
+               <div className='max-w-[946px] mx-auto mt-20 md:mt-24 lg:mt-28 mb-[75px] md:mb-[100px] lg:mb-[121px] rounded-[12px] px-[30px] md:px-[40px] lg:px-[50px] pb-[52px] lg:pt-[40px] pt-[25px] md:pt-[32px] shadow-FullBox  z-[100] relative bg-white' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
                     <div>
                         <h2 className='text-[#4D4D4D] font-Outfit text-[14px]   md:text-xl  font-semibold  pb-[11px]  leading-normal'>Register Now</h2>
                     </div>

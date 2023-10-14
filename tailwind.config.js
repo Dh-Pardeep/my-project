@@ -21,7 +21,7 @@ export default {
       'md': '767.9px',
       'lg': '991.9px',
       'xl': '1200px',
-      'xxl': '1400px',
+      'xxl': '1440px',
     },
     fontFamily: {
       'Inter': ['Inter', 'sans-serif'],

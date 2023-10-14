@@ -33,24 +33,24 @@ const Questions = () => {
   return (
     <div>
       <div className="container mx-auto">
-        <div className='pt-[77px]'>
+        <div className='lg:pt-[77px]'>
           <div className=' bg-[#2ABAE9] w-[175px] h-[4px] mx-auto rounded-sm '></div>
         </div>
         <h2 className='text-center text-[#1C1D1D] text-[30px] md:text-[35px] lg:text-[40px]  font-medium font-Outfit leading-normal' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear"  >Frequently Awesome Questions</h2>
-        <div className='flex flex-col lg:flex-row  items-center mt-[68px]'>
+        <div className='flex flex-col lg:flex-row  items-center mt-[45px] md:mt-[55px] lg:mt-[68px]'>
           <div className='w-full lg:w-[45%]' >
             <img className=' mx-auto lg:ms-auto pe-8' data-aos="fade-right" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear" src={Questions_img} alt="Questions_img" />
           </div>
           <div className="w-full lg:w-[55%]  " data-aos="fade-left" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
             <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className=' ' >
-              <AccordionHeader className="text-base font-medium py-[18px] text-black font-Outfit max-w-[275px]   text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[430px]   " onClick={() => handleOpen(1)}>Q1 What is WorkUp's visionary approach?</AccordionHeader>
+              <AccordionHeader className="text-base font-medium py-[18px] text-black font-Outfit max-w-[275px]   text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[460px] xl:max-w-[515px]   " onClick={() => handleOpen(1)}>Q1 What is WorkUp's visionary approach?</AccordionHeader>
               <AccordionBody className=" mb-[18px] max-w-[627px] pt-[5px]  font-Inter  text-[14px] md:text-base   ">
                 WorkUp envisions becoming the ultimate integrated business automation platform, leveraging AI and automation to empower business owners and accounting professionals. Our goal is to revolutionise the accessibility and management of financial information, leading to unparalleled efficiency and control.
               </AccordionBody>
             </Accordion>
             <div className='border-[1px] border-solid border-[#EBEBEB] ' ></div>
             <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className=" ">
-              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit  max-w-[275px]  text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[430px]   " onClick={() => handleOpen(2)}>
+              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit  max-w-[275px]  text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[460px] xl:max-w-[515px]   " onClick={() => handleOpen(2)}>
                 Q2 How does WorkUp tackle financial control challenges using AI?
               </AccordionHeader>
               <AccordionBody className=" mb-[18px] max-w-[627px] pt-[5px]  font-Inter  text-[14px] md:text-base   ">
@@ -59,7 +59,7 @@ const Questions = () => {
             </Accordion>
             <div className='border-[1px] border-solid border-[#EBEBEB] ' ></div>
             <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className=" ">
-              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit max-w-[275px]  text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[430px]   " onClick={() => handleOpen(3)}>
+              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit max-w-[275px]  text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[460px] xl:max-w-[515px]   " onClick={() => handleOpen(3)}>
                 Q3 How does WorkUp's real-time automation set it apart in the realm of finance?
               </AccordionHeader>
               <AccordionBody className=" mb-[18px] max-w-[627px] pt-[5px]  font-Inter  text-[14px] md:text-base   ">
@@ -68,14 +68,14 @@ const Questions = () => {
             </Accordion>
             <div className='border-[1px] border-solid border-[#EBEBEB] ' ></div>
             <Accordion open={open === 4} icon={<Icon id={4} open={open} />} className=" ">
-              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit  max-w-[275px]   text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[430px]   " onClick={() => handleOpen(4)}>Q4 How does WorkUp redefine the role of accounting professionals with automation?</AccordionHeader>
+              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit  max-w-[275px]   text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[460px] xl:max-w-[515px]   " onClick={() => handleOpen(4)}>Q4 How does WorkUp redefine the role of accounting professionals with automation?</AccordionHeader>
               <AccordionBody className=" mb-[18px] max-w-[627px] pt-[5px]  font-Inter  text-[14px] md:text-base   ">
                 WorkUp envisions becoming the ultimate integrated business automation platform, leveraging AI and automation to empower business owners and accounting professionals. Our goal is to revolutionise the accessibility and management of financial information, leading to unparalleled efficiency and control.
               </AccordionBody>
             </Accordion>
             <div className='border-[1px] border-solid border-[#EBEBEB] ' ></div>
             <Accordion open={open === 5} icon={<Icon id={5} open={open} />} className=" ">
-              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit  max-w-[275px]   text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[430px]   " onClick={() => handleOpen(5)}>
+              <AccordionHeader className="text-base font-medium py-[18px]  font-Outfit  max-w-[275px]   text-start sm:max-w-[500px] md:max-w-[590px] lg:max-w-[460px] xl:max-w-[515px]   " onClick={() => handleOpen(5)}>
                 Q5 Why is WorkUp the perfect choice for businesses seeking financial empowerment?
               </AccordionHeader>
               <AccordionBody className=" mb-[18px] max-w-[627px] pt-[5px]  font-Inter  text-[14px] md:text-base   ">
@@ -84,7 +84,7 @@ const Questions = () => {
             </Accordion>
             <div className='border-[1px] border-solid border-[#EBEBEB] ' ></div>
             <Accordion open={open === 6} icon={<Icon id={6} open={open} />} className=" ">
-              <AccordionHeader className="text-base font-medium py-[18px] max-w-[275px]  font-Outfit  sm:max-w-[500px] md:max-w-[590px] lg:max-w-[430px]    text-start  " onClick={() => handleOpen(6)}>
+              <AccordionHeader className="text-base font-medium py-[18px] max-w-[275px]  font-Outfit  sm:max-w-[500px] md:max-w-[590px] lg:max-w-[460px] xl:max-w-[515px]    text-start  " onClick={() => handleOpen(6)}>
                 Q6 How does WorkUp showcase its genuine commitment to businesses' success?
               </AccordionHeader>
               <AccordionBody className=" mb-[18px] max-w-[627px] pt-[5px]  font-Inter  text-[14px] md:text-base   ">
@@ -95,11 +95,11 @@ const Questions = () => {
           </div>
         </div>
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear" className='relative z-50'>
-          <div className='bg-gradient-to-r from-cyan-500 to-blue-500 pb-[50px] rounded-[16px] mt-[75px] translate-y-[50px] relative z-10' >
+          <div className='bg-gradient-to-r from-cyan-500 to-blue-500 pb-[50px] rounded-[16px] mt-[30px] md:mt-[50px] lg:mt-[75px] translate-y-[50px] relative z-10' >
             <img className=' absolute z-[-1]' src={Questions_img_imput} alt="" />
             <img className=' absolute right-0 z-[-1]' src={Questions_img_imput_two} alt="" />
             <h2 className='font-Outfit text-white  font-medium  text-[30px] md:text-[35px] lg:text-[40px] text-center pt-[41px]'>Join Free Demo</h2>
-            <div className='flex  flex-col sm:flex-row items-center justify-between py-2 pe-[9px] ps-[21px] max-w-[290px]  sm:max-w-[464px] mx-auto bg-white rounded-[100px]  mt-8 '>
+            <div className='flex  flex-col sm:flex-row items-center justify-between py-2 pe-[9px] ps-[21px] max-w-[290px]  sm:max-w-[464px] mx-auto bg-white rounded-[100px]  mt-8  '>
               <input type="text" placeholder='Enter email to join waitlist' className='w-10/12  text-center sm:text-start placeholder:font-Inter placeholder:sm:text-[14px] placeholder:text-base placeholder:font-normal placeholder:text-[#666666] mt-[10px] sm:mt-0 outline-none placeholder:leading-normal' />
               <div className='rounded-[35px] group  mt-[20px]  cursor-pointer sm:mt-0 bg-gradient-to-r from-cyan-500 to-blue-500 inline-block px-[27px] py-[16px] '>
                 <div className='group-hover:translate-x-[6px] transition-all ease-linear duration-200'>
